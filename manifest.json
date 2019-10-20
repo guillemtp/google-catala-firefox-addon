@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "Google Català",
+  "version": "1.0",
+
+  "description": "Cerca a google.cat.",
+
+  "icons": {
+    "32": "icons/google_catala_32.png",
+    "64": "icons/google_catala_64.png",
+    "128": "icons/google_catala_128.png"
+  },
+
+  "chrome_settings_overrides": {
+    "search_provider": {
+       "name": "Google Català",
+       "search_url": "https://www.google.cat/search?q={searchTerms}&hl=ca",
+       "is_default": true
+     }
+   }
+}
